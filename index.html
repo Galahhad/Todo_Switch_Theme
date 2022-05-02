@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>New Todo</title>
+  </head>
+  <body>
+    <main class="supreme">
+      <label class="switch">
+        <input type="checkbox" checked id="checkbox" />
+        <span class="slider"></span>
+      </label>
+      <div class="todo_text">TODO</div>
+      <form class="add_wrap">
+        <input
+          placeholder="Введите текст"
+          required
+          class="add_input"
+          maxlength="50"
+        />
+        <button class="add_button">ADD</button>
+      </form>
+      <div id="list"></div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
