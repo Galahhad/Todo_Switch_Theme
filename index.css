@@ -234,7 +234,7 @@ input:checked + .slider:before {
   opacity: 0;
   transition: 0.3s;
 }
-.checkbox_switch:checked + .checkmark::before {
+.checkbox:checked + .checkmark_switch::before {
   opacity: 1;
 }
 .checkmark_switch:active {
