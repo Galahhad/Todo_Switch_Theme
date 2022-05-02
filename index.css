@@ -110,6 +110,9 @@ body {
   font-size: 20px;
   font-weight: bold;
   line-height: 40px;
+  overflow: scroll;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .delete_button {
   width: 20px;
@@ -248,6 +251,9 @@ input:checked + .slider:before {
   font-size: 20px;
   font-weight: bold;
   line-height: 40px;
+  overflow: scroll;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .delete_button_switch {
   width: 20px;
