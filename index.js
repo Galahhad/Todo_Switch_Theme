@@ -57,7 +57,7 @@ const render = (array) => {
     if (item.done) {
       checkbox.checked = "checked";
       textInfo.style.textDecoration = "line-through";
-      listInfo.style.opacity = "0.5";
+      listInfo.style.opacity = "0.3";
     } else {
       checkbox.checked;
     }
